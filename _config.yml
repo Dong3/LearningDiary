@@ -1,1 +1,26 @@
 encoding: utf-8
+name: Herring Cove
+author: Herring Cove
+baseurl: /LearningDiary
+description: theme for jekyll
+
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
